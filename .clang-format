@@ -1,0 +1,29 @@
+---
+BasedOnStyle: GNU
+IndentWidth: 2
+TabWidth: 2
+UseTab: Always
+---
+
+---
+Language: Cpp
+
+AlignConsecutiveMacros: AcrossEmptyLinesAndComments
+IndentCaseLabels: true
+AlignTrailingComments: true
+BreakBeforeBraces: Custom
+BraceWrapping:
+  IndentBraces: false
+SpaceBeforeParens: ControlStatements
+
+AllowAllArgumentsOnNextLine: false
+AllowShortBlocksOnASingleLine: Never
+AllowShortFunctionsOnASingleLine: None
+
+AlignAfterOpenBracket: Align
+BinPackArguments: false
+AlignOperands: Align
+PenaltyBreakAssignment: 21
+BreakBeforeBinaryOperators: All
+---
+
