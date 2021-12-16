@@ -1,29 +1,23 @@
 ---
-BasedOnStyle: GNU
+BasedOnStyle: Google
 IndentWidth: 2
-TabWidth: 2
-UseTab: Always
----
-
+ColumnLimit: 100
 ---
 Language: Cpp
 
-AlignConsecutiveMacros: AcrossEmptyLinesAndComments
-IndentCaseLabels: true
-AlignTrailingComments: true
-BreakBeforeBraces: Custom
-BraceWrapping:
-  IndentBraces: false
-SpaceBeforeParens: ControlStatements
+AlignConsecutiveMacros: true
+AlignConsecutiveAssignments: true
+# AlignConsecutiveDeclarations: true
+AlignEscapedNewlines: true
 
+# AlignAfterOpenBracket: Align
+
+AlignTrailingComments: true
 AllowAllArgumentsOnNextLine: false
 AllowShortBlocksOnASingleLine: Never
 AllowShortFunctionsOnASingleLine: None
 
-AlignAfterOpenBracket: Align
-BinPackArguments: false
-AlignOperands: Align
-PenaltyBreakAssignment: 21
-BreakBeforeBinaryOperators: All
----
-
+DerivePointerAlignment: false
+PointerAlignment: Left
+IndentCaseLabels: false
+IndentPPDirectives: AfterHash
